@@ -43,7 +43,9 @@ root.render(
         src="https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg"
       />
     </div>
-    <p>Lucky number today is {Math.floor(Math.random() * 10)} !</p>
+    <p style={{ color: "red", fontSize: "20px" }}>
+      Lucky number today is {Math.floor(Math.random() * 10)} !
+    </p>
     <img className="random-image" src={image} alt="random image" />
   </div>
 );
