@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.headerclass {
+  color: red;
+}
+
+ul.foodlist {
+  color: blue;
+}
+
+.imagecontainer img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.random-image {
+  margin-left: 20px;
+}
